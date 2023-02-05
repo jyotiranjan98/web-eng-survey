@@ -1,0 +1,75 @@
+.mainDiv{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around
+}
+.ist-div{
+text-align: center;
+margin-top: 10px;
+}
+#img-one{
+  
+  margin-top: -900px;
+}
+/* #img-two{
+   
+    margin-top: -400px;
+} */
+.sec-div{
+    justify-content: space-around;
+    text-align: center;
+}
+button{
+    margin: 10px;
+    padding: 8px;
+    width: 400px;
+    background-color: rgb(69, 64, 64);
+    border-radius: 5px;
+    color: white;
+}
+input{
+    height: 30px;
+    margin: 10px;
+    width: 400px;
+    border: 2px solid black;
+    
+}
+#emailadd,#numd{
+    color: rgb(120, 6, 24);
+}
+#num{
+    height: 30px;
+    width: 340px;
+}
+select{
+    height: 30px;
+}
+p{
+    margin-top: 30px;
+    font-weight: bold;
+}
+.thank{
+    padding: 2%;
+    margin-left: 30%;
+    height: 300px;
+    width: 600px;
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#umail{
+color: rgb(38, 41, 219);
+}
+
+@media only screen and (max-width: 760px) {
+    
+    .mainDiv{
+      width:100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    #englogo{
+        width: 60%;
+    }
+  }
